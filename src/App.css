@@ -1,0 +1,26 @@
+.imgspin1,.imgspin2{
+  box-shadow: inset 5px 5px 40px black;
+}
+.imgspin1 img{
+    animation: spin 7s linear infinite;
+    box-shadow: inset 5px 5px 20px black,
+              inset -3px -3px 20px white;
+
+}
+.imgspin2 img{
+  animation: spin 5s linear infinite;
+}
+@keyframes spin{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(360deg);
+  }
+}
+.m1{
+  margin: 40px 0;
+}
+.m2{
+  margin: 10px 0;
+}
